@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background-color:wheat;
+}
+section{
+    position: relative;
+    top: 70px;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    
+}
+section .content{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+h1{
+    text-align: center;
+    font-size:35px;
+    font-weight:lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.login input,.pass input,.mail input{
+    width: 200px;
+    height: 30px;
+}
+.forgot,.mail,.pass,.login{
+    text-align: center;
+}
+.Remember{
+    margin-left: 10px;
+}
+.login input{
+    background-color:rgb(216, 171, 112);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    
+}
+section .img{
+    position: relative;
+    width: 75%;
+    height: 100%;
+    
+}
+section .img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+@media (max-width:425px) {
+
+section{
+        position: relative;
+        top: 40px;
+        width: 75%;
+        height: 500px;
+        display: flex;
+        margin: auto;
+        
+}
+    
+body{
+        background-image: url(/images/work-desk.jpg);
+        background-size: cover;
+}
+
+
+section .img{
+    width: 0;
+    height: 0;
+    
+}
+section .content{
+    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+   
+    
+}
+
+
+
+}
